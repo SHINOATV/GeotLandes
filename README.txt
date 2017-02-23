@@ -1,7 +1,7 @@
 # GeotLandes
 Ceci est un projet open source, oui et non parce qu'en fait si on réfléchi bien, c'est pas vraiment open source.
 
-#Conditions
+# Conditions
 
 2 semaines de délai.
 Un site de style moderne, sobre avec des couleur chaude.
