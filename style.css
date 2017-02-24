@@ -19,7 +19,7 @@ body {
 @media screen and (min-width:930px) {
     #texte_infos
     {
-        color: cornflowerblue;
+        color: black;
     }
 }
 
@@ -27,7 +27,7 @@ body {
 @media screen and (max-width:568px) {
     #texte_infos
     {
-        color: cornflowerblue;
+        color: seagreen;
         overflow: hidden;
     }
 }
