@@ -1,8 +1,33 @@
+/* Corps du Texte */
 body {
     color: black;
 }
 
+/* Bloc comprenant le menu et le logo */
 #bloc_principal {
-   text-align: center;
-   margin: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Texte affiché sur les slides */
+#texte_infos
+    {
+        color: white;
+    }
+
+/* Si l'écran est supérieur à 930 px */
+@media screen and (min-width:930px) {
+    #texte_infos
+    {
+        color: cornflowerblue;
+    }
+}
+
+/* Si l'écran est inférieur à 568 px */
+@media screen and (max-width:568px) {
+    #texte_infos
+    {
+        color: cornflowerblue;
+        overflow: hidden;
+    }
 }
