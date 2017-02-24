@@ -1,145 +1,331 @@
-<!doctype html>
-<!-- Ceci est la langue du contenu de la page -->
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-  <!-- Ceci est l'encodage du Texte -->
-  <meta charset="utf-8">
-  <!-- Ceci est le Titre affiché dans le navigateur -->
-  <title>Géot'Landes, votre cabinet Géomètre-Expert à Pissos</title>
 
-  <!-- BOOTSTRAP -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- Ceci sont les liens en relations avec celle-ci -->
-  <link rel="stylesheet" href="style.css">
-  <!-- Ceci est du javascript si besoin -->
-  <script src="script.js"></script>
+    <title>Géot'Landes, votre cabinet Géomètre-Expert à Pissos</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<!-- Ceci est le corps du Texte -->
-
 <body>
 
-  <div id="bloc_principal">
-    <div id="menu">
-      <img src="img/images/logo_circle.png" alt="LOGO" title="">
-      <img src="img/images/titre_logo.png" alt="Titre LOGO" title="">
-    </div>
-
-    <!-- Ceci est la barre de Navigation -->
-
-    <nav class="navbar navbar-default" role="navigation">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-        <a class="navbar-brand" href="#">Geotlandes</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Tarifs</a></li>
-          <li><a href="#">Cartes</a></li>
-        </ul>
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Rechercher">
-          </div>
-          <button type="submit" class="btn btn-default">Envoyer</button>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Partenaires</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plus d'informations <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Maitrise d'oeuvre</a></li>
-              <li><a href="#">Aménagement</a></li>
-              <li><a href="#">Travaux Spécifiques</a></li>
-              <li><a href="#">Foncier</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </nav>
-    <!-- Fin barre de Navigation -->
-
-  </div>
-
-  <!-- Ceci est le Carousel -->
-  <div id="carousel-id" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-id" data-slide-to="0" class=""></li>
-      <li data-target="#carousel-id" data-slide-to="1" class=""></li>
-      <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="item">
-        <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/photos/p1010589.jpg">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-          <div class="carousel-caption">
-            <h1>GÉOTLANDES</h1>
-            <div id="texte_infos">Bienvenue sur le site de Géotlandes. Après 30 ans d'expérience sur le secteur de la haute Landes, Cécile Bibette
-              ainsi que Benôit Labat ont crée la SARL GEOTLANDES à Pissos en début d'année 2012. Depuis, Geotlandes vous
-              accompagne pour tous vos projets d'aménagement qu'ils soient urbains ou ruraux, vos maitrises d'oeuvres ainsi
-              que différents travaux spécifiques comme l'aménagement agricole et irrigation ou encore le cubage de bois.
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">GEOTLANDES</a>
             </div>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Contactez Nous !</a></p>
-          </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">A propos de Nous</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contacts</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plus d'informations <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">Maitrise d'Oeuvre</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">Aménagements</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">Travaux Spécifiques</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">Foncier</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Nouvel item ?</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partenaires <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">Acceder aux Plans Cadastraux</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Infos Géo des références</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Base de données Géographiques</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Site du développemment durable</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Tout savoir sur la profession</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Autres Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
-      <div class="item">
-        <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="img/photos/p1010575.jpg">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>DANS NOTRE CABINET</h1>
-            <div id="texte_infos">- demandes administratives concernant toute cession de terrain (CU,DP et PA) - demande préalable de défrichement
-              - document modificatif du parcellaire cadastral - projet d'étude (VRD, agricole, partage successoral) - élaboration
-              de divers plans après relevés topographiques - règlement de copropriété sur le terrain.</div>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Contactez Nous !</a></p>
-          </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/photos/p1010575.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2> </h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/photos/p1010589.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/photos/p1010613.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2> </h2>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="item active">
-        <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="img/photos/p1010613.jpg">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>SUR VOTRE TERRAIN</h1>
-            <div id="texte_infos">- plan topographique: la base du métier de Géomètre Pour chacun de nos activités, nous faisons au départ un relevé
-              topographique à l'aide d'instruments puis nous établissons un plan relatant l'état des lieux ainsi mesuré.
-              Il est indispensable : pour tout projet de construction, d' aménagement ainsi qu'avant toute étude - division
-              parcellaire - délimitation, bornage - implantation de bâtiments Après obtention du permis de construire, nous
-              implantons votre ou vos bâtiments conformément au permis avec garantie du respect des règles de prospect. Nous
-              implantons aussi tout type d'ouvrage - relevé d'intérieur - relevé agricole</div>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Contactez Nous !</a></p>
-          </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Bienvenue sur Geotlandes
+                </h1>
+            </div>
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Geotlandes</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Bienvenue sur le site de Géotlandes. Après 30 ans d'expérience sur le secteur de la haute Landes, Cécile Bibette
+ainsi que Benôit Labat ont crée la SARL GEOTLANDES à Pissos en début d'année 2012.  Depuis, Geotlandes
+vous accompagne pour tous vos projets d'aménagement qu'ils soient urbains ou ruraux, vos maitrises d'oeuvres
+ainsi que différents travaux spécifiques comme  l'aménagement agricole et irrigation ou encore le cubage de bois. </p>
+                        <a href="#" class="btn btn-default">En apprendre Plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i>Géomètre un métier d'avenir</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Erreur 404, rip .. </p>
+                        <a href="#" class="btn btn-default">En apprendre Plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i>Ordre des Géomètre-Expert</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Erreur 404, rip .. </p>
+                        <a href="#" class="btn btn-default">En apprendre Plus</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i>GEOTLANDES & un partenariat</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Erreur 404, rip .. </p>
+                        <a href="#" class="btn btn-default">En apprendre Plus</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Images de Présentation</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="img/photos/150766_10150767715874661_264577644_n.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="img/photos/relevé exploitation agricole 1.JPG" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="img/photos/relevé exploitation agricole 2.JPG" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="img/photos/rencontre sur le terrain.JPG" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="img/photos/rencontre sur le terrain 2.JPG" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="img/photos/96-2015 3.JPG" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Geotlandes Fonctionnalités</h2>
+            </div>
+            <div class="col-md-6">
+                <p>Petit texte</p>
+                <ul>
+                    <li><strong>Texte dur</strong>
+                    </li>
+                    <li>Elements liste ordonée 1</li>
+                    <li>Elements liste ordonée 2</li>
+                    <li>Elements liste ordonée 3</li>
+                    <li>Elements liste ordonée 4</li>
+                    <li>Elements liste ordonée 5</li>
+                </ul>
+                <p>Texte Random</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/photos/4L Trophy 2016.JPG" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Texte Random</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-default btn-block" href="#">Appel à l'Action</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; GEOTLANDES 2017</p>
+                </div>
+            </div>
+        </footer>
+
     </div>
-    <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-  </div>
-  <!-- Fin Carousel -->
+    <!-- /.container -->
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-  <!-- Ceci est le pied de page -->
-  <div id="footer">
-  </div>
-  <!-- Fin du pied de page -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
 
-<!-- Fin du corps du Texte -->
-
-</html
+</html>
